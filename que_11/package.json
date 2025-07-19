@@ -1,0 +1,16 @@
+{
+  "name": "bhumi-note",
+  "version": "1.0.0",
+  "description": "a simple utility package by bhumi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"utils\"",
+    "\"bhumi\"",
+    "\"assignment\""
+  ],
+  "author": "bhumi",
+  "license": "ISC"
+}

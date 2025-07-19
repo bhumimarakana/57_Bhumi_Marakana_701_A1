@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello NodeJS</title>
+</head>
+<body>
+  <h1>Call NodeJS from HTML</h1>
+  <button onclick="callApi()">Click to Call</button>
+  <p id="responseText"></p>
+
+  <script>
+    function callApi() {
+      fetch('/gethello') 
+        .then(res => res.text())
+        .then(data => {
+          document.getElementById('responseText').innerText = data;
+        })
+        .catch(err => console.error('Error:', err));
+    }
+  </script>
+</body>
+</html>
